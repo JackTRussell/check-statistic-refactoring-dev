@@ -2,10 +2,6 @@
 Feature: Just feature for testing
 I want to see new description with new changes
 
-Background: 
-
-Given new changes <user> and <username>
-
 @SC_202563 @fifth_scenario_tag
 Scenario Outline: Fifth scenario
 Given the salary management system is initialized with the following data
