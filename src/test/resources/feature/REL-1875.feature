@@ -1,4 +1,4 @@
-@tagtagtag @this_is_story_tag @new_changes
+@ST_53498 @tagtagtag @this_is_story_tag @new_changes
 Feature: Just feature for testing
 I want to see new description with new changes
 
@@ -6,8 +6,7 @@ Background:
 
 Given new changes <user> and <username>
 
-
-@fifth_scenario_tag
+@SC_202563 @fifth_scenario_tag
 Scenario Outline: Fifth scenario
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -24,7 +23,8 @@ Examples:
 |mickey|3|35000.0|
 |stive|4|45000.0|
 
-@fifth_scenario_tag
+
+@SC_202564 @fifth_scenario_tag
 Scenario Outline: Fifth scenario
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
