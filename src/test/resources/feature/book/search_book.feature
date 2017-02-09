@@ -13,6 +13,12 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 
+@SC_205512
+Scenario: Check steps
+Given a DocString with "content type"
+And a DocString with "wrong indentation"
+And a DocString with "alternative separator"
+
 @SC_202566 @Critical @Test_1
 Scenario: Search books by publication year
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
