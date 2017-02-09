@@ -25,6 +25,7 @@ Examples:
 |mickey|3|
 |stive|4|
 
+
 @SC_202564 @fifth_scenario_tag
 Scenario: Fifth scenario
 Given the salary management system is initialized with the following data
