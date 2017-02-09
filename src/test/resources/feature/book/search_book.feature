@@ -15,9 +15,10 @@ Then i want do smth with "smth"
 
 @SC_205512
 Scenario: Check steps
-Given a DocString with "content type"
-And a DocString with "wrong indentation"
-And a DocString with "alternative separator"
+Given there is line number "one"
+And there is line number "two"
+And there is line number "three"
+And there is line number "four"
 
 @SC_202566 @Critical @Test_1
 Scenario: Search books by publication year
