@@ -9,6 +9,7 @@ Given a DocString with "content type"
 And a DocString with "wrong indentation"
 And a DocString with "alternative separator"
 And type
+And type
 
 @SC_203625
 Scenario: 
