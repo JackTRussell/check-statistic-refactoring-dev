@@ -18,7 +18,7 @@ Scenario: Check steps
 Given there is line number "one"
 And there is line number "two"
 And there is line number "three"
-And there is line number "four" <>
+And there is line number "four"
 
 @SC_202566 @Critical @Test_1
 Scenario: Search books by publication year
