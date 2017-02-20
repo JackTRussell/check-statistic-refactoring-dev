@@ -14,10 +14,12 @@ And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 And some changes
 
-@SC_202567
-Scenario: 
-Given the salary management system is initialized with the following data
-Then the salary management system is initialized with the following data
+@SC_205512
+Scenario: Check steps
+Given there is line number "one"
+And there is line number "two"
+And there is line number "three"
+And there is line number "four"
 
 @SC_202566 @Critical @Test_1
 Scenario: Search books by publication year
@@ -29,6 +31,11 @@ Then 2 books should have been found
 And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
+
+@SC_202567
+Scenario: 
+Given the salary management system is initialized with the following data
+Then the salary management system is initialized with the following data
 
 @SC_202568
 Scenario: salary management
@@ -51,10 +58,3 @@ Then 2 books should have been found
 And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
-
-@SC_205512
-Scenario: Check steps
-Given there is line number "one"
-And there is line number "two"
-And there is line number "three"
-And there is line number "four" <>
