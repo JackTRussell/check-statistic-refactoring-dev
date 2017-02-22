@@ -14,13 +14,6 @@ And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 And some changes
 
-@SC_205512
-Scenario: Check steps
-Given there is line number "one"
-And there is line number "two"
-And there is line number "three"
-And there is line number "four" <>
-
 @SC_202566 @Critical @Test_1
 Scenario: Search books by publication year
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
@@ -58,3 +51,10 @@ Then 2 books should have been found
 And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
+
+@SC_205512
+Scenario: Check steps
+Given there is line number "one"
+And there is line number "two"
+And there is line number "three"
+And there is line number "four" <>
