@@ -16,10 +16,3 @@ Scenario:
 Given when
 When then addaa
 Then a
-
-@SC_225612
-Scenario: To be deleted
-Given then
-Then when
-When and
-And what?
