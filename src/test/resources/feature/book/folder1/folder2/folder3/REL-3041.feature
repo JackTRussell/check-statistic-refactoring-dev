@@ -10,9 +10,3 @@ And I have a domain created
 And I have a project created
 When I open a project and invite subscribers
 Then I see a notification about successful invitation
-
-@SC_225611
-Scenario: 
-Given when
-When then addaa
-Then a
