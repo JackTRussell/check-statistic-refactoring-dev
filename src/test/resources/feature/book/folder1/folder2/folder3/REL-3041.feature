@@ -20,7 +20,6 @@ Here in the table I'd like to show how Example Table Descriptions are displayed 
 |John|Doe|john.doe@yahoo.co.uk|
 |Future1|Future|future@mail.com|
 
-
 @SC_225618
 Scenario: 
 Given when
@@ -28,6 +27,19 @@ When then addaa
 Then a
 
 @SC_225619
+Scenario: To be deleted
+Given then
+Then when
+When and
+And what?
+
+@SC_225621
+Scenario: 
+Given when
+When then addaa
+Then a
+
+@SC_225622
 Scenario: To be deleted
 Given then
 Then when
