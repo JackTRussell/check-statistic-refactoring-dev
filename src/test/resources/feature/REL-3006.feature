@@ -1,22 +1,22 @@
-@ST_53770
+@ST_60399
 Feature: DocString variations
 Feature which leads to this issue 
 
-@SC_203625
+@SC_227507
 Scenario: 
 Given a simple DocString
 Given a DocString with "content type"
 And a DocString with "wrong indentation"
 And a DocString with "alternative separator"
 
-@SC_203626
+@SC_227508
 Scenario: 
 Given a simple DocString
 Given a DocString with "content type"
 And a DocString with "wrong indentation"
 And a DocString with "alternative separator"
 
-@SC_203627
+@SC_227509
 Scenario: 
 Given a simple DocString
 Given a DocString with "content type"
