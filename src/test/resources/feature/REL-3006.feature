@@ -3,21 +3,21 @@ Feature: DocString variations
 Feature which leads to this issue 
 
 @SC_203625
-Scenario: 
+Scenario: First
 Given a simple DocString
 Given a DocString with "content type"
 And a DocString with "wrong indentation"
 And a DocString with "alternative separator"
 
 @SC_203626
-Scenario: 
+Scenario: Second
 Given a simple DocString
 Given a DocString with "content type"
 And a DocString with "wrong indentation"
 And a DocString with "alternative separator"
 
 @SC_203627
-Scenario: 
+Scenario: Third
 Given a simple DocString
 Given a DocString with "content type"
 And a DocString with "wrong indentation"
