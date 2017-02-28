@@ -1,7 +1,7 @@
-@ST_53771
+@ST_62347
 Feature: 
 
-@SC_203628
+@SC_234757
 Scenario: 
 Given the salary management system is initialized with the following data
 And another book with the title 'Some other book', written by 'Tim Tomson', published in 23 August 2014
