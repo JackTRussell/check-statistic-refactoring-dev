@@ -10,3 +10,14 @@ Given there is some data
 |table|table|
 |table|table|
 And check this in repo
+
+@SC_235521
+Scenario: 
+Given there is some data
+|data|data|
+|and|and|
+#comment line
+#another comment line
+|table|table|
+|table|table|
+And check this in repo
