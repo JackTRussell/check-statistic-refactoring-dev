@@ -1,4 +1,4 @@
-@ST_67913 @Story_BookSearch
+@ST_68000 @Story_BookSearch
 Feature: Book search
  To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
@@ -14,7 +14,7 @@ And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 And some changes
 
-@SC_255399 @Critical @Test_1
+@SC_255726 @Critical @Test_1
 Scenario: Search books by publication year
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 And another book with the title 'Some other book', written by 'Tim Tomson', published in 23 August 2014
@@ -25,12 +25,12 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 
-@SC_255400
+@SC_255727
 Scenario: 
 Given the salary management system is initialized with the following data
 Then the salary management system is initialized with the following data
 
-@SC_255401
+@SC_255728
 Scenario: salary management
 Given the salary management system is initialized with the following data
 And another book with the title 'Some other book', written by 'Tim Tomson', published in 23 August 2014
@@ -41,7 +41,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 
-@SC_255402
+@SC_255729
 Scenario: 
 Given the salary management system is initialized with the following data
 And another book with the title 'Some other book', written by 'Tim Tomson', published in 23 August 2014
@@ -52,7 +52,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 
-@SC_255403
+@SC_255730
 Scenario: Check steps
 Given there is line number "one"
 And there is line number "two"
