@@ -1,8 +1,8 @@
-@ST_62348
+@ST_67912
 Feature: DocString variations
 Feature which leads to this issue 
 
-@SC_234758
+@SC_255396
 Scenario: minimalistic
 Given a simple DocString
 Given a DocString with content type
@@ -12,7 +12,7 @@ And a DocString with normal separator inside
 And a DocString with alternative separator inside
 And a DocString with escaped separator inside
 
-@SC_234759
+@SC_255397
 Scenario: minimalistic
 Given a simple DocString
 """
