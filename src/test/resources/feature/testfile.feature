@@ -1,9 +1,7 @@
-@tasttag @ST_818682500
+@ST_68934 @tasttag
 Feature: test story
 
-@SC_883014452
+@SC_259214
 Scenario: 
 Given new story is created in Relime
 And was loaded to Git
-
-
