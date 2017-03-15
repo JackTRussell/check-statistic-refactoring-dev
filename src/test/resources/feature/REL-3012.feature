@@ -1,8 +1,8 @@
-@ST_67999
+@ST_70380
 Feature: DocString variations
 Feature which leads to this issue 
 
-@SC_255723
+@SC_264557
 Scenario: minimalistic
 Given a simple DocString
 Given a DocString with content type
