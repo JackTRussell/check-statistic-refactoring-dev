@@ -1,7 +1,7 @@
-@ST_70385
+@ST_70387
 Feature: 
 
-@SC_264562
+@SC_264564
 Scenario: 
 Given a simple DocString
 Given a DocString with content type
