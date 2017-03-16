@@ -13,7 +13,7 @@ Then I see it in Relime
 And I add some changes
 And more changes were added
 And some changes
-But in this story background hasn't given keyword
+But in this story background hasn't given keywordghjnmh
 
 @SC_269326 @fifth_scenario_tag
 Scenario Outline: Fifth scenario
@@ -33,7 +33,7 @@ Examples:
 |stive|4|45000.0|
 
 
-@second_scenario_tag
+@SC_269373 @second_scenario_tag
 Scenario: Second scenario
 Some description
 Given I created scenario
