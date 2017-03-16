@@ -1,5 +1,5 @@
 @ST_71665
-Feature: 
+Feature: No Feature Name
 
 @SC_269340 @first_scenario_tag
 Scenario: First scenario
