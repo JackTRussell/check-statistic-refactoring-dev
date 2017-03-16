@@ -15,7 +15,7 @@ And more changes were added
 And some changes
 But in this story background hasn't given keywordghhdhdshd
 
-@SC_269325 @fourth_scenario_tag
+@fourth_scenario_tag
 Scenario: Fourth scenario
 Some description
 Given I created scenario
