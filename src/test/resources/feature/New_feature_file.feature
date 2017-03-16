@@ -1,7 +1,7 @@
 @ST_71664
 Feature: 
 
-@SC_269334 @fourth_scenario_tag
+@fourth_scenario_tag
 Scenario: Fourth scenario
 Some description
 Given I created scenario
