@@ -15,30 +15,6 @@ And more changes were added
 And some changes
 But in this story background hasn't given keywordghjnmh
 
-@SC_269326 @fifth_scenario_tag
-Scenario Outline: Fifth scenario
-Given the salary management system is initialized with the following data
-When the boss increases the salary for the <user> with id <id> by 5%
-Then the payroll for the employee with <id> should display a salary of <salary>
-And i want save this string to Git
-And this string must be pulled from Git
-And this also must be re-stored on GIT!!!!
-And 34wteyeyy
-
-Examples: 
-|user|id|salary|
-|donald|1|60000.0|
-|dewie|2|62000.0|
-|mickey|3|35000.0|
-|stive|4|45000.0|
-
-
-@SC_269373 @second_scenario_tag
-Scenario: Second scenario
-Some description
-Given I created scenario
-Then I see it in Relime
-
 @SC_269328 @third_scenario_tag
 Scenario: Third scenario
 There is scenario description
@@ -185,6 +161,12 @@ Then I see it in Relime
 
 @SC_269372 @fourth_scenario_tag
 Scenario: Fourth scenario
+Some description
+Given I created scenario
+Then I see it in Relime
+
+@SC_269373 @second_scenario_tag
+Scenario: Second scenario
 Some description
 Given I created scenario
 Then I see it in Relime
