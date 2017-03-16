@@ -15,7 +15,7 @@ And more changes were added
 And some changes
 But in this story background hasn't given keywordghhdhdshd
 
-@SC_269324 @third_scenario_tag
+@third_scenario_tag
 Scenario: Third scenario
 There is scenario description
 Lorem ipsum dolor sit amet, mea dico volumus copiosae cu, debet movet doctus ex nec, at adipisci interpretaris usu. Has feugiat ponderum te. Pri nisl case id, te est diam sint regione, in alii philosophia sit. Ius ancillae voluptaria cu. Ut eam dicta partiendo.
