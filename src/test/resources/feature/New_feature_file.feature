@@ -1,7 +1,6 @@
 @ST_71664
 Feature: 
-
-@SC_269335 @fifth_scenario_tag
+ @fifth_scenario_tag
 Scenario Outline: Fifth scenario
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
