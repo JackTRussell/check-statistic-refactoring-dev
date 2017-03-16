@@ -1,3 +1,4 @@
+Feature:
 @first_scenario_tag
 Scenario: First scenario
 There is scenario description
