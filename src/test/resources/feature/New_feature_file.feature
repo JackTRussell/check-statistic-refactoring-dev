@@ -1,12 +1,6 @@
 @ST_71664
 Feature: 
 
-@fourth_scenario_tag
-Scenario: Fourth scenario
-Some description
-Given I created scenario
-Then I see it in Relime
-
 @SC_269335 @fifth_scenario_tag
 Scenario Outline: Fifth scenario
 Given the salary management system is initialized with the following data
@@ -145,3 +139,10 @@ Examples:
 |dewie|2|62000.0|
 |mickey|3|35000.0|
 |stive|4|45000.0|
+
+
+@SC_269383 @fourth_scenario_tag
+Scenario: Fourth scenario
+Some description
+Given I created scenario
+Then I see it in Relime
