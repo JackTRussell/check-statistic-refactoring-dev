@@ -32,11 +32,6 @@ Examples:
 |mickey|3|35000.0|
 |stive|4|45000.0|
 
-@second_scenario_tag
-Scenario: Second scenario
-Some description
-Given I created scenario
-Then I see it in Relime
 
 @SC_269333 @third_scenario_tag
 Scenario: Third scenario
@@ -169,3 +164,9 @@ And I add some changes
 And more changes were added
 And some changes
 But in this story background hasn't given keyword
+
+@SC_269379 @second_scenario_tag
+Scenario: Second scenario
+Some description
+Given I created scenario
+Then I see it in Relime
