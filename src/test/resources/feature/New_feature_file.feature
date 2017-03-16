@@ -13,9 +13,9 @@ Then I see it in Relime
 And I add some changes
 And more changes were added
 And some changes
-But in this story background hasn't given keywordghjnmh
+But in this story background hasn't given keyword
 
-@fourth_scenario_tag
+@SC_269376 @fourth_scenario_tag
 Scenario: Fourth scenario
 Some description J
 Given I created scenario
