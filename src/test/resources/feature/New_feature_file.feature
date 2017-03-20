@@ -5,7 +5,7 @@ Feature:
 Scenario: Fourth scenario
 Some description J
 Given I created scenario
-Then I see it
+Then I see it in Relime
 
 @SC_269339 @fifth_scenario_tag
 Scenario Outline: Fifth scenario
