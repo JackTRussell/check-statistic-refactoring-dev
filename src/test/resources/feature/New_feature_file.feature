@@ -1,12 +1,6 @@
 @ST_71664
 Feature: 
 
-@second_scenario_tag
-Scenario: Second scenario
-Some description
-Given I created scenario
-Then I see it in Relime
-
 @SC_269383 @fourth_scenario_tag
 Scenario: Fourth scenario
 Some description
@@ -54,3 +48,9 @@ And I add some changes
 And more changes were added
 And some changes
 But in this story background hasn't given keyword
+
+@SC_279320 @second_scenario_tag
+Scenario: Second scenario
+Some description
+Given I created scenario
+Then I see it in Relime
