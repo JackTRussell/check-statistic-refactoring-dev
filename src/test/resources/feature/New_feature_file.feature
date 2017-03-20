@@ -1,12 +1,6 @@
 @ST_71664
 Feature: 
 
-@SC_278369 @second_scenario_tag
-Scenario: Second scenario
-Some description
-Given I created scenario
-Then I see it in Relime
-
 @SC_269337 @third_scenario_tag
 Scenario: Third scenario
 There is scenario description
@@ -145,3 +139,10 @@ Examples:
 |dewie|2|62000.0|
 |mickey|3|35000.0|
 |stive|4|45000.0|
+
+
+@SC_278369 @second_scenario_tag
+Scenario: Second scenario
+Some description
+Given I created scenario
+Then I see it in Relime
