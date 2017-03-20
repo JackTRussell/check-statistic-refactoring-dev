@@ -1,12 +1,6 @@
 @ST_71664
 Feature: 
 
-@fourth_scenario_tag
-Scenario: Fourth scenario
-Some description J
-Given I created scenario
-Then I see it
-
 @SC_269339 @fifth_scenario_tag
 Scenario Outline: Fifth scenario
 Given the salary management system is initialized with the following data
@@ -146,3 +140,9 @@ In mei quis persius accumsan. Duo dicunt eloquentiam ut, pri eu simul facete cau
 In mea tibique appetere perfecto, in iudico maluisset maiestatis usu. Augue discere menandri has ut, omnes nonumes at vis, quo ne malorum accusamus. Vim exerci luptatum contentiones ad, ei veniam everti virtute usu, pri iuvaret equidem no. Eum at odio numquam repudiare, qui in natum iisque, cu quaeque scriptorem cum. Eam sale utroque volutpat in, in sea sanctus aliquando.
 Given I created scenario
 Then I see it in Relime
+
+@SC_279312 @fourth_scenario_tag
+Scenario: Fourth scenario
+Some description J
+Given I created scenario
+Then I see it
