@@ -18,7 +18,7 @@ Examples:
 |stive|4|45000.0|
 
 
-@SC_269336 @second_scenario_tag
+@second_scenario_tag
 Scenario: Second scenario
 Some description
 Given I created scenario
