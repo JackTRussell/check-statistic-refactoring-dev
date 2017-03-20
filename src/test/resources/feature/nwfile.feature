@@ -1,7 +1,7 @@
 @ST_74596
 Feature: 
 
-@SC_280269
+@SC_280270
 Scenario: 
 Given I created scenario
 Then I see it in Relime
@@ -11,6 +11,15 @@ And some changes
 But in this story background hasn't given keyword
 
 @SC_280268
+Scenario: 
+Given I created scenario
+Then I see it in Relime
+And I add some changes
+And more changes were added
+And some changes
+But in this story background hasn't given keyword
+
+@SC_280269
 Scenario: 
 Given I created scenario
 Then I see it in Relime
