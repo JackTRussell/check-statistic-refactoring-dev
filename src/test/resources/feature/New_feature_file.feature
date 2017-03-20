@@ -19,12 +19,6 @@ Examples:
 |stive|4|45000.0|
 
 
-@second_scenario_tag
-Scenario: Second scenario
-Some description
-Given I created scenario
-Then I see it in Relime
-
 @SC_269371 @third_scenario_tag
 Scenario: Third scenario
 There is scenario description
@@ -146,3 +140,9 @@ Scenario: Fourth scenario
 Some description J
 Given I created scenario
 Then I see it
+
+@SC_279314 @second_scenario_tag
+Scenario: Second scenario
+Some description
+Given I created scenario
+Then I see it in Relime

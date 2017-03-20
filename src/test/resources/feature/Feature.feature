@@ -1,12 +1,6 @@
 @ST_71665
 Feature: No Feature Name
 
-@SC_269341 @second_scenario_tag
-Scenario: Second scenario
-Some description
-Given I created scenario
-Then I see it in
-
 @SC_269340 @first_scenario_tag
 Scenario: First scenario
 There is scenario description
@@ -20,6 +14,12 @@ And I add some changes
 And more changes were added
 And some changes
 But in this story background hasn't given
+
+@SC_269341 @second_scenario_tag
+Scenario: Second scenario
+Some description
+Given I created scenario
+Then I see it in
 
 @SC_269342 @third_scenario_tag
 Scenario: Third scenario
