@@ -33,8 +33,8 @@ public class SalarySteps {
 		assertThat(nominee.getSalary(), equalTo(salary));
 	}
 
-	@When("^the boss increases the salary for the <user> with id <id> by (\\d+)%$")
-	public void the_boss_increases_the_salary_for_the_user_with_id_id_by_(int arg1) throws Throwable {
+	//@When("^the boss increases the salary for the <user> with id <id> by (\\d+)%$")
+	//public void the_boss_increases_the_salary_for_the_user_with_id_id_by_(int arg1) throws Throwable {
 		//TODO: add Table
-	}
+	//}
 }
