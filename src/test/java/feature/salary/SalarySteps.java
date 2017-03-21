@@ -40,8 +40,9 @@ public class SalarySteps {
 	@When("^the boss increases the salary for the employee with name")
 	public void the_boss_increases_the_salary_for_the_employee_with_id_by(final int id, final int increaseInPercent) throws Throwable {
 		manager.increaseSalary(id, increaseInPercent);
-		
+	}	
 	@When("^i want save this string to Git$")
 	public void the_boss_increases_the(final int id, final int increaseInPercent) throws Throwable {
 		manager.increaseSalary(id, increaseInPercent);
+	}
 }
