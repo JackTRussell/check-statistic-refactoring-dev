@@ -26,6 +26,25 @@ public class SalarySteps {
 	public void the_boss_increases_the_salary_for_the_employee_with_id_by(final int id, final int increaseInPercent) throws Throwable {
 		manager.increaseSalary(id, increaseInPercent);
 	}
+    @And("^I select feature \"([^\"]*)\" in the tree$")
+    public void iSelectFeatureInTheTree(String arg0) throws Throwable {
+        if (!checkIfFurtherStepsAreNeeded()) {
+            return;
+        }
+        try {
+            if(arg0.equals("jira"))
+                arg0 = SystemHelper.DEFAULTJIRALINKEDFEATURE;
+            editorPage.selectFeatureByName(arg0);
+            Thread.sleep(2000);
+            ReportService.reportAction("'" + arg0 + "' feature was selected.", true);
+        } catch (AssertionError e) {
+            throw e;
+        } catch (Throwable e) {
+            ReportService.reportAction("Error: " + e.getMessage(), false);
+        } finally {
+            CucumberArpReport.nextStep();
+        }
+    }
 
 	@Then("^the payroll for the employee with id (\\d+) should display a salary of (\\d+)$")
 	public void the_payroll_for_the_employee_with_id_should_display_a_salary_of(final int id, final float salary) throws Throwable {
