@@ -74,6 +74,12 @@ public class BookSearchSteps {
 		// Express the Regexp above with the code you wish you had
 		throw new PendingException();
 	}
+	
+	@And("^i want save this string to Git$")
+	public void want_i_do(String arg1) throws Throwable {
+		// Express the Regexp above with the code you wish you had
+		throw new PendingException();
+	}
 
 
 }
