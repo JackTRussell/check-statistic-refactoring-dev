@@ -1,4 +1,4 @@
-/*package feature.salary;
+package feature.salary;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -37,4 +37,4 @@ public class SalarySteps {
 	public void the_boss_increases_the_salary_for_the_user_with_id_id_by_(int arg1) throws Throwable {
 		//TODO: add Table
 	}
-}*/
+}
